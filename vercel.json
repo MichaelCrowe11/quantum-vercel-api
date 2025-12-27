@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "public": true,
+  "rewrites": [
+    { "source": "/api/health", "destination": "/api/health" },
+    { "source": "/api/similarity", "destination": "/api/similarity" },
+    { "source": "/api/bugs", "destination": "/api/bugs" },
+    { "source": "/api", "destination": "/api" }
+  ]
+}
